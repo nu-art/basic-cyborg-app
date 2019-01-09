@@ -1,1 +1,5 @@
+apply from: './dev-tools/gradle/utils.gradle'
+
 include ':app'
+includeIfExists('cyborg-core')
+
