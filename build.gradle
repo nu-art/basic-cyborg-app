@@ -21,7 +21,7 @@ allprojects {
 }
 
 task wrapper(type: Wrapper) {
-    gradleVersion = '4.4'
+    gradleVersion = '4.6'
 }
 
 def path = rootProject.projectDir.getAbsolutePath() + "/dev-tools/gradle"
