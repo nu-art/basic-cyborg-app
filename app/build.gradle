@@ -2,4 +2,7 @@ applyAndroidApplication("com.your.app", "basic-cyborg-app")
 
 dependencies {
     implementation(resolveDependency('cyborg-core', 'com.nu-art-software.cyborg', "${NU_ART_VERSION}"))
+    implementation "com.android.support:appcompat-v7:${ANDROID_SUPPORT_VERSION}"
+    implementation "com.android.support:recyclerview-v7:${ANDROID_SUPPORT_VERSION}"
+
 }
