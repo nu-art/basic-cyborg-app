@@ -1,0 +1,12 @@
+project.applyAndroidXApplication("com.your.app", "basic-cyborg-app")
+
+dependencies {
+	implementation(resolveDependency('cyborg-x', 'com.nu-art-software.cyborg', "${NU_ART_VERSION}"))
+	implementation "androidx.appcompat:appcompat:${ANDROIDX_VERSION}"
+
+	implementation "androidx.vectordrawable:vectordrawable:1.0.0"
+	testImplementation 'junit:junit:4.+'
+	androidTestImplementation 'androidx.test.ext:junit:1.1.2'
+	androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+}
+
